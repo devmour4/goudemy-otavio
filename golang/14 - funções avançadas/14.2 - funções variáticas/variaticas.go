@@ -5,7 +5,7 @@ import (
 )
 
 							//esse aqui
-func soma(numeros ...int) int {
+func soma(numeros ...int) int{
 	total := 0
 	for _, numero := range numeros {
 		total += numero
@@ -20,5 +20,5 @@ func escrever (texto string, numeros ...int) {
 func main() {
 	totaldaSoma := soma(10, 30, 45, 60, 55)
 	fmt.Println(totaldaSoma)
-	escrever("Olá Mundo", 10, 15, 21, 7, 9)
+	escrever("Olá Kevin", 10, 15, 21, 7, 9)
 }
